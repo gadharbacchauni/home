@@ -110,20 +110,6 @@ nav ul li ul li a {
     flex: 1 1 30%;
     text-align: center;
     margin-bottom: 1rem;
-	vertical-align: middle;
-}
-
-#iconimg {
-	/* margin: 5px; */
-	height: 18px;
-	width: auto;
-}
-
-#skyler {
-	text-align: center;
-	vertical-align: middle;
-	display: flex;
-	justify-content: center;
 }
 
 .profile-item img {
@@ -132,8 +118,6 @@ nav ul li ul li a {
     border-radius: 50%;
     object-fit: cover;
 }
-
-
 
 .profile-item p {
     margin-top: 0.5rem;
