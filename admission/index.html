@@ -140,7 +140,7 @@
                     <div class="dropdown">
                         <button onclick="dropfunc('bsc')" class="dropbtn bsc">BSc Courses</button>
                         <div id="bsc" class="dropdown-content">
-                            <a href="bsc/">BSc in Meth</a>
+                            <a href="#">BSc in Meth</a>
                             <a href="#about">BSc in Domestic violence</a>
                             <a href="#about">BSc in Gandupona</a>
                         </div>
@@ -151,10 +151,10 @@
                             <a href="#home">B Tech in Woman Beating</a>
                             <a href="#about">B Tech in Joint Roling</a>
                             <a href="#contact">B Tech in Joint Roling with specialisation in Charas</a>
-							<a href="#contact">B Tech in Advanced Procrastination and Laziness Techniques</a>
+                            <a href="#contact">B Tech in Advanced Procrastination and Laziness Techniques</a>
                         </div>
                     </div>
-					<div class="dropdown">
+                    <div class="dropdown">
                         <button onclick="dropfunc('BA')" class="dropbtn BA">BA Courses</button>
                         <div id="BA" class="dropdown-content">
                             <a href="#home">BA in Gaali Galouj</a>
@@ -162,7 +162,7 @@
                             <a href="#contact">BA in Toxic realtionships</a>
                         </div>
                     </div>
-					<div class="dropdown">
+                    <div class="dropdown">
                         <button onclick="dropfunc('Bisiness')" class="dropbtn Bisiness">Bisiness Courses</button>
                         <div id="Bisiness" class="dropdown-content">
                             <a href="#home">Goru Churi</a>
@@ -172,46 +172,59 @@
                         </div>
                     </div>
                 </section>
-                <script>
-					var openedlist;
-                    function dropfunc(clk) {
-						openedlist = clk;
-                      	document.getElementById(clk).classList.toggle("show");
-						var ddownconts = document.getElementsByClassName('dropdown-content');
-
-						// Loop through the elements and remove the specified class
-						for (var i = 0; i < ddownconts.length; i++) {
-							if (ddownconts[i].id != clk) {
-								ddownconts[i].classList.remove('show');
-							}
-						}
-						// console.log(openedlist);
-                    }
-                    // Close the dropdown if the user clicks outside of it
-                    window.onclick = function(event) {
-							if (!event.target.matches('.dropbtn')) {
-							var dropdowns = document.getElementsByClassName("dropdown-content");
-							var i;
-							for (i = 0; i < dropdowns.length; i++) {
-								var openDropdown = dropdowns[i];
-								if (openDropdown.classList.contains('show')) {
-									console.log(`removed show`);
-									openDropdown.classList.remove('show');
-								}
-							}
-						}
-                    }
-                </script>
             </section>
             <section class="admission-section" id="pg">
                 <h2>Postgraduate Admissions</h2>
                 <p>Our Postgraduate programs are designed for students who want to waste another few years of their lives and waste their parents' money to once again contribute nothing to society.</p>
-                <div class="soon">coming soon..</div>
+                <section class="courselists" id="pgcourses">
+                    <div class="dropdown">
+                        <button onclick="dropfunc('Msc')" class="dropbtn Msc">MSc Courses</button>
+                        <div id="Msc" class="dropdown-content">
+                            <a href="#">MSc in Meth Crystals</a>
+                            <a href="#">MSc in Meth Cooking</a>
+                            <a href="#about">MSc in Domestic Violence (Child Beating)</a>
+                            <a href="#about">MSc in Domestic Violence (Wife Beating)</a>
+                            <a href="#about">MSc in Domestic Violence (Emotional and Verbal Abuse)</a>
+                            <a href="#about">MSc in Gandupona (Screwing Your Career)</a>
+                            <a href="#about">MSc in Gandupona (Time Wasting)</a>
+                            <a href="#about">MSc in Gandupona (Bad Life Choices)</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropfunc('Mtech')" class="dropbtn Mtech">M Tech Courses</button>
+                        <div id="Mtech" class="dropdown-content">
+                            <a href="#home">M Tech in Woman Beating</a>
+                            <a href="#home">M Tech in Woman Beating With Stick</a>
+                            <a href="#about">M Tech in Joint Roling</a>
+                            <a href="#contact">M Tech in Advanced Procrastination and Laziness Techniques</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropfunc('MA')" class="dropbtn MA">MA Courses</button>
+                        <div id="MA" class="dropdown-content">
+                            <a href="#home">MA in Bangla Gaali Galouj</a>
+                            <a href="#home">MA in Hindi Gaali Galouj</a>
+                            <a href="#home">MA in English Gaali Galouj</a>
+                            <a href="#home">MA in Gaali Galouj in Modern Foreign Languales</a>
+                            <a href="#about">MA in Alcoholism</a>
+                            <a href="#contact">MA in Toxic realtionships</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="dropfunc('MBisiness')" class="dropbtn MBisiness">Bisiness Courses</button>
+                        <div id="MBisiness" class="dropdown-content">
+                            <a href="#home">MBA Goru Churi</a>
+                            <a href="#home">MBA Religious Propaganda</a>
+                            <a href="#home">MBA Illegal Weapon Sales</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- <div class="soon">coming soon..</div> -->
             </section>
             <section class="admission-section" id="doc">
                 <h2>Doctorate Admissions</h2>
                 <p>The University of Gadhar Baccha is thrilled to welcome the exceptional individuals who have achieved such extraordinary levels of gandupona that they're ready to take their chaos to the next level. Our doctorate program is designed for those miserable bitches who aspire to elevate their expertise in domestic violence and cocaine consumption. Join us to push the boundaries of alcoholism and make your mark in the world of unparalleled gadhapona.</p>
-				<div class="soon">coming soon..</div>
+                <div class="soon">coming soon..</div>
             </section>
         </div>
         <footer>
@@ -219,3 +232,33 @@
         </footer>
     </body>
 </html>
+<script>
+	var openedlist;
+	function dropfunc(clk) {
+		openedlist = clk;
+		  document.getElementById(clk).classList.toggle("show");
+		var ddownconts = document.getElementsByClassName('dropdown-content');
+
+		// Loop through the elements and remove the specified class
+		for (var i = 0; i < ddownconts.length; i++) {
+			if (ddownconts[i].id != clk) {
+				ddownconts[i].classList.remove('show');
+			}
+		}
+		// console.log(openedlist);
+	}
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+			if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+				var openDropdown = dropdowns[i];
+				if (openDropdown.classList.contains('show')) {
+					console.log(`removed show`);
+					openDropdown.classList.remove('show');
+				}
+			}
+		}
+	}
+</script>
