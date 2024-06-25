@@ -133,7 +133,10 @@ nav ul li ul li a {
     object-fit: cover;
 }
 
-
+.email {
+    color: #88bcf0;
+    text-decoration: dotted;
+}
 
 .profile-item p {
     margin-top: 0.5rem;
