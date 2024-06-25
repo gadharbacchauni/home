@@ -27,6 +27,11 @@ header {
     margin-right: 1rem;
 }
 
+.email {
+    color: #88bcf0;
+    text-decoration: dotted;
+}
+
 nav {
     float: right;
 }
