@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta property="og:image" content="https://gadharbacchauni.github.io/home/ugb.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Admissions information for the University of Gadhar Baccha. Learn about our programs and how to apply.">
+        <meta name="description" content="Explore our clubs and extracurriculars.">
         <meta name="keywords" content="University, Admissions, Undergraduate, Graduate, International, Application">
         <title>Admissions - University of Gadhar Baccha</title>
         <link rel="stylesheet" href="styles.css">
@@ -110,7 +110,15 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="comingsoon" href="#">Campus Life</a>
+                            <a href="#campus-life">Campus Life</a>
+                            <ul>
+                                <li>
+                                    <a class="comingsoon" href="#">Housing</a>
+                                </li>
+                                <li>
+                                    <a class="comingsoon" href="clubs.html">Clubs & Organizations</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="#contact">Contact Us</a>
@@ -261,37 +269,4 @@
         </footer>
     </body>
 </html>
-<!-- <script>
-	var openedlist;
-	function dropfunc(clk) {
-		openedlist = clk;
-		  document.getElementById(clk).classList.toggle("show");
-		var ddownconts = document.getElementsByClassName('dropdown-content');
-
-		// Loop through the elements and remove the specified class
-		for (var i = 0; i < ddownconts.length; i++) {
-			if (ddownconts[i].id != clk) {
-				ddownconts[i].classList.remove('show');
-			}
-		}
-		// console.log(openedlist);
-	}
-	// Close the dropdown if the user clicks outside of it
-	window.onclick = function(event) {
-		if (event.target.matches(`.comingsoon`)) {
-			alert(`COMING SOON..`)
-		}
-		if (!event.target.matches('.dropbtn')) {
-			var dropdowns = document.getElementsByClassName("dropdown-content");
-			var i;
-			for (i = 0; i < dropdowns.length; i++) {
-				var openDropdown = dropdowns[i];
-				if (openDropdown.classList.contains('show')) {
-					console.log(`removed show`);
-					openDropdown.classList.remove('show');
-				}
-			}
-		}
-	}
-</script> -->
 <script src="admission.js"></script>
