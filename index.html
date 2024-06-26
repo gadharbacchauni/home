@@ -3,12 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:image" content="https://gadharbacchauni.github.io/home/ugb.jpg" />
+        <meta property="og:image" content="https://gadharbacchauni.github.io/home/ugb.jpg">
         <meta name="description" content="Welcome to University of Gadhar Baccha">
         <meta name="keywords" content="University, Education, Programs, Admissions, Campus Life, Gadhar Baccha, Gadha, Gandu">
         <title>University of Gadhar Baccha</title>
         <link href="ugb.jpg" rel="icon" type="image/x-icon">
         <link rel="stylesheet" href="styles.css">
+        <script src="comingsoon.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="herobg.js"></script>
     </head>
     <body>
         <header>
@@ -39,30 +42,13 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#academics">Academics</a>
-                            <ul>
-                                <li>
-                                    <a href="#programs">Programs</a>
-                                </li>
-                                <li>
-                                    <a href="#departments">Departments</a>
-                                </li>
-                                <li>
-                                    <a href="#faculty">Faculty</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
                             <a href="#campus-life">Campus Life</a>
                             <ul>
                                 <li>
-                                    <a href="#housing">Housing</a>
+                                    <a class="comingsoon" href="#">Housing</a>
                                 </li>
                                 <li>
-                                    <a href="#dining">Dining</a>
-                                </li>
-                                <li>
-                                    <a href="#clubs">Clubs & Organizations</a>
+                                    <a class="comingsoon" href="clubs.html">Clubs & Organizations</a>
                                 </li>
                             </ul>
                         </li>
@@ -73,8 +59,15 @@
                 </nav>
             </div>
         </header>
-        <script src="dropdown.js"></script>
-        <div class="hero">
+        <div id="admission" class=" marquee announcement notice highlight">
+            <ul class="notice">
+                <li>
+                    <a class="admission" href="admission/">ADMISSIONS GOING ON FOR YEAR 2024-25</a>
+                </li>
+                <!-- <li><a href="#">Annual Goru Churi Competition</a></li> -->
+            </ul>
+        </div>
+        <div id="hero" class="hero">
             <h1>Welcome to University of Gadhar Baccha</h1>
             <p id="motto">
                 <i>non cogiti, ergo non sum</i>
