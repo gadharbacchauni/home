@@ -1,6 +1,7 @@
 var images = [
-	"shrek.jpg",
+	"1.jpg"
 	"donk.png",
+	"shrek.jpg",
 ];
 $(function () {
 	var i = 0;
