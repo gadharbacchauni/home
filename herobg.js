@@ -1,5 +1,5 @@
 var images = [
-	"1.jpg",
+    "1.jpg",
 	"donk.png",
 	"shrek.jpg"
 ];
